@@ -1,5 +1,5 @@
 
-#  Monthly Sales Analysis — Data Science Project
+# Monthly Sales Analysis — Data Science Project
 
 ### *A complete end-to-end data science workflow using NumPy, Pandas, Matplotlib, and Seaborn.*
 
