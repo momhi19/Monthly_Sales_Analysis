@@ -66,15 +66,6 @@ Bash
 python utils.py
 Run Analysis: Open notebook.ipynb in Jupyter notebook or VS Code and execute all cells sequentially from top to bottom.
 
-
-6. Results and Recommendations
-(This section should be filled with your actual numerical results after running the project.)
-
-Top Performer: [Insert Best Product Name] demonstrated the highest annual contribution.
-
-Seasonal Peak: [Insert Best Quarter Name] was the most lucrative quarter, indicating a strong seasonal factor.
-
-Strategy Recommendation: [Insert one key actionable recommendation, e.g., Increase marketing budget allocation specifically for Q3 to smooth out the Q4 peak/trough cycle.]
 6. Results and Recommendations
 (This section will be filled later)
 
@@ -82,7 +73,8 @@ Top Performer: [Insert Best Product Name] demonstrated the highest annual contri
 
 Seasonal Peak: [Insert Best Quarter Name] was the most lucrative quarter, indicating a strong seasonal factor.
 
-7. Author
-Yassine TALAHARI and MESBAHI abdullah
 
 Strategy Recommendation: [Insert one key actionable recommendation, e.g., Increase marketing budget allocation specifically for Q3 to smooth out the Q4 peak/trough cycle.]
+
+7. Author
+Yassine TALAHARI and MESBAHI abdullah
