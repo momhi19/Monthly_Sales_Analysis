@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 #  Monthly Sales Analysis — Data Science Project
 
 ### *A complete end-to-end data science workflow using NumPy, Pandas, Matplotlib, and Seaborn.*
@@ -12,9 +12,9 @@ This repository documents a complete data science workflow focused on analyzing 
 The objective is not just to display numbers — but to transform raw, synthetic data into **clear, actionable business recommendations**.
 
 The project begins from scratch:  
-✔ No pre-existing data  
-✔ Data is generated programmatically  
-✔ Full analysis is done step-by-step
+No pre-existing data  
+Data is generated programmatically  
+Full analysis is done step-by-step
 
 ---
 
