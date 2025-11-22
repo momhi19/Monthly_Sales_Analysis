@@ -78,23 +78,28 @@ project_sales/
 
 ### **Stage 3 — Visualization & Conclusions**
 
---Visualizations were created using Matplotlib and Seaborn to explore sales trends, consistency, and distribution patterns:
+--Visualizations were created using Matplotlib and Seaborn to explore sales trends, consistency, and distribution patterns: 
+
 .Line Charts—Show monthly sales trends for each product over 12 months.
   .Data is transformed into long format with melt() for Seaborn compatibility.
   .sns.lineplot() with hue='Product' separates product lines with different colors.
   .marker='o' adds markers for each month for better visibility.
+  
 .Boxplots + Swarmplots — Show performance consistency and identify outliers.
   .Boxplots display the median, interquartile range (IQR), and whiskers.
   .Swarmplots overlay individual sales points to show distribution variability.
   .Helps identify which products are stable (low variability) and which are inconsistent.
+  
 .Heatmap — Visualizes sales volume and density across months and products.
   .Data is transposed so products appear on the vertical axis and months on the horizontal axis.
   .annot=True displays the actual sales numbers on the heatmap.
   .Color palette (cmap='YlGnBu') helps quickly identify high and low sales months.
+  
 Key Insights from Visualizations:
  .Product A consistently outperforms others in median sales.
  .Q4 shows a clear seasonal peak for all products.
  .Product D has higher variability, indicating less consistent performance.
+ 
 These visualizations help deliver clear, data-driven business recommendations, such as:
   .Increase marketing budget in Q4 to maximize seasonal demand.
   .Focus on stabilizing sales for Product D.
