@@ -78,17 +78,27 @@ project_sales/
 
 ### **Stage 3 — Visualization & Conclusions**
 
-Visualizations created using Matplotlib & Seaborn:
-
--  Line charts — sales trends over 12 months  
--  Boxplots — performance consistency per product  
--  Heatmap — correlation & distribution patterns  
-
-Final section delivers **clear, data-driven business recommendations**  
-(e.g., where to increase marketing budget, seasonal insights, product strategies).
-
----
-
+--Visualizations were created using Matplotlib and Seaborn to explore sales trends, consistency, and distribution patterns:
+.Line Charts—Show monthly sales trends for each product over 12 months.
+  .Data is transformed into long format with melt() for Seaborn compatibility.
+  .sns.lineplot() with hue='Product' separates product lines with different colors.
+  .marker='o' adds markers for each month for better visibility.
+.Boxplots + Swarmplots — Show performance consistency and identify outliers.
+  .Boxplots display the median, interquartile range (IQR), and whiskers.
+  .Swarmplots overlay individual sales points to show distribution variability.
+  .Helps identify which products are stable (low variability) and which are inconsistent.
+.Heatmap — Visualizes sales volume and density across months and products.
+  .Data is transposed so products appear on the vertical axis and months on the horizontal axis.
+  .annot=True displays the actual sales numbers on the heatmap.
+  .Color palette (cmap='YlGnBu') helps quickly identify high and low sales months.
+Key Insights from Visualizations:
+ .Product A consistently outperforms others in median sales.
+ .Q4 shows a clear seasonal peak for all products.
+ .Product D has higher variability, indicating less consistent performance.
+These visualizations help deliver clear, data-driven business recommendations, such as:
+  .Increase marketing budget in Q4 to maximize seasonal demand.
+  .Focus on stabilizing sales for Product D.
+  .Consider mid-year promotions to boost sales in Q2.
 ##  5. How to Run the Project
 
 ### **1. Clone the Repository**
@@ -125,12 +135,13 @@ Run all cells from top to bottom.
 ##  6. Results and Recommendations
 *(This section will be filled after completing the analysis.)*
 
-**Top Performer:** _[Insert Best Product]_  
-**Seasonal Peak:** _[Insert Best Quarter]_  
+**Top Performer:** _[Product A]_  
+**Seasonal Peak:** _[October–December]_  
 **Recommendation:**  
-_Add a clear business action, e.g.: Increase marketing budget specifically during Q3 to maximize seasonal demand._
-
----
+ **Recommendations:
+     .Increase marketing budget in Q4 to maximize seasonal demand.
+     .Improve sales consistency for Product D.
+     .Consider mid-year promotions in Q2 to boost sales.
 
 ##  7. Authors
 
